@@ -1,0 +1,53 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background: url('./images/background.png') no-repeat center center fixed; /* Background image */
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.App-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.App-header nav ul li {
+  margin: 0 1rem;
+}
+
+.App-header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.get-started {
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App-main {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  width: 80%;
+  margin: 2rem auto;
+}
